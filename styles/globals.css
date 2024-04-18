@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap");
+
+:root {
+  --bg-color: rgb(0, 0, 0);
+  --primary-color: #ffffff;
+  --secondary-color: #09f755;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  scroll-behavior: smooth;
+}
+body {
+  /* background-color: rgb(154, 176, 228); */
+  background-color: var(--bg-color);
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  font-size: 1.8rem;
+  color: var(--primary-color);
+}
+p {
+  font-size: 1.5rem;
+  line-height: 1.5;
+}
+::-moz-selection {
+  /* Code for Firefox */
+  color: black;
+  background: #ffdc00;
+}
+
+::selection {
+  color: black;
+  background: #ffdc00;
+}
+
+a,
+a:visited,
+a:link {
+  color: inherit;
+  text-decoration: none;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-weight: 700;
+  color: inherit;
+}
+
+.section_title {
+  flex-shrink: 0;
+  width: 20rem;
+  margin-right: 10rem;
+  color: var(--secondary-color);
+  text-transform: uppercase;
+  text-align: right;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+.section_content {
+  font-weight: 300;
+  width: 100%;
+  max-width: 60rem;
+}
+img {
+  height: auto;
+  width: auto;
+}
+@media only screen and (min-width: 1550px) {
+  html {
+    font-size: 70%;
+  }
+}
+
+@media only screen and (min-width: 1800px) {
+  html {
+    font-size: 80%;
+  }
+}
+@media only screen and (min-width: 2000px) {
+  html {
+    font-size: 85%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 60%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section_title {
+    text-align: left;
+    width: auto;
+  }
+  .section_content {
+    width: 100%;
+    max-width: 80rem;
+    padding-top: 4rem;
+    padding-left: 6rem;
+  }
+}

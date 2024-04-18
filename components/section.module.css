@@ -1,0 +1,30 @@
+.section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  padding: 10rem 17rem;
+}
+
+@media only screen and (max-width: 1280px) {
+  .section {
+    padding: 10rem;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .section {
+    padding: 5rem;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .section {
+    display: block;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .section {
+    padding: 50px 35px;
+  }
+}
