@@ -15,9 +15,9 @@ function OtherProjects() {
         {
             name: "Interview Tezeract Task",
             description: "Designed and implemented a form using React.js, seamlessly integrating Firebase for real-time data display, as per company interview task.",
-            techItems: ['ReactJS', "Firebase", "React-Bootstrap"],
+            techItems: ['ReactJS', "Firebase", "React-Bootstrap", "MUI"],
             github: "https://github.com/0SyedAli/tezetask/",
-            live: "https://tezetask.netlify.app/Designed and implemented a form using React.js, seamlessly integrating Firebase for real-time data display, as per company interview task."
+            live: "https://tezetask.netlify.app/"
         },
         {
             name: "Singer React Web",
